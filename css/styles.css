@@ -150,6 +150,7 @@ img {
   color: var(--accent-color);
 }
 .link-logo {
+  display: block;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -289,15 +290,13 @@ img {
   font-style: normal;
   background-color: var(--dark-background-color);
 }
-.link-logo {
-  display: block;
+.footer .link-logo {
+  margin-bottom: 20px;
 }
 .foot-logo {
   color: var(--primary-white-color);
 }
-.footer-adress {
-  margin-top: 20px;
-}
+
 .list .footer-list-item + .footer-list-item {
   margin-top: 9px;
 }
